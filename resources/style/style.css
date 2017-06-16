@@ -1,14 +1,7 @@
 /* Header style */
 
-.header{
-  
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.nav{
-
+*{
+  border: 1px solid black;
 }
 
 h1{
@@ -16,4 +9,44 @@ h1{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  padding: 10px;
+}
+
+.header{
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.nav{
+  justify-content: flex-end;
+}
+
+.nav li{
+  justify-content: flex-end;
+  display: inline-block;
+  padding: 10px;
+}
+
+.main content{
+  display: flex;
+}
+
+.columnlarge {
+  width: 630px;
+  flex-direction: column;
+}
+
+.columnmedium {
+  width: 300px;
+  flex-direction: column;
+}
+
+.columnsmall {
+  width: 240px;
+  flex-direction: column;
 }
