@@ -1,66 +1,56 @@
 /* Header style */
 
-/*
+
 *{
   border: 1px solid black;
 }
-*/
-#logotext{
+
+
+.header{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  border-bottom: 1px solid black;
+  border: 1px solid black;
+}
+
+.logo{
+  display: inline-block;
+  align-content: center;
   color: MediumAquamarine;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   padding: 10px;
-}
-
-.header{
-  width: 100%;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid black;
-  justify-content: flex-start;
-  padding: 20px;
-  margin-bottom: 40px;
   border: 1px solid black;
 }
 
-.header nav{
-  display: flex;
-}
-
 .nav{
+  display: inline-block;
+  align-content: flex-end;
   border: 1px solid black
 }
 
-.nav li{
-  display: inline;
-  justify-content: space-around;
-  color: black
-}
 
 /* Content layout */
 
 .maincontent{
   display: flex;
+  width: 100%;
 }
 
 .columnlarge {
-  display: flex;
-  flex-direction: column;
   width: 630px;
+  flex-direction: column;
 }
 
 .columnmedium {
-  display: flex;
   flex-direction: column;
   width: 300px;
 }
 
 .columnsmall {
-  display: flex;
   flex-direction: column;
   width: 240px;
 }
